@@ -1,6 +1,7 @@
 def fun(n):
     return n*(n+1)/2
 print(fun(4))
+# the number of iterations will be 10
 
 def fun1(n):
     sum=0
@@ -9,6 +10,7 @@ def fun1(n):
         sum += 1
     return sum
 print(fun1(4))
+# the number of iterations will be 4
 
 def fun2(n):
     sum=0
@@ -18,3 +20,4 @@ def fun2(n):
             sum += 1
     return sum
 print(fun2(4))
+# the number of iterations will be 10
